@@ -8,19 +8,84 @@
 <body>
 
 <header>
-    <h1>Drotsens Samfällighetsförening</h1>
-    <nav>
-        <a href="index.html">Start</a>
-        <a href="om.html">Om föreningen</a>
-        <a href="boendeinfo.html">Information till boende</a>
-        <a href="dokument.html">Dokument</a>
-    </nav>
+    <div class="header-content">
+        <div class="logo">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Krona (symbol för kunglig drots) -->
+                <path d="M8 20L12 14L18 18L24 12L30 18L36 14L40 20V32H8V20Z" fill="#2d5a27" stroke="#1a3d1a" stroke-width="2"/>
+                <circle cx="12" cy="14" r="2" fill="#4a7c59"/>
+                <circle cx="24" cy="12" r="2" fill="#4a7c59"/>
+                <circle cx="36" cy="14" r="2" fill="#4a7c59"/>
+                <!-- Nyckel (symbol för förvaltarskap) -->
+                <path d="M16 28C16 26 17.5 24 20 24C22.5 24 24 26 24 28C24 30 22.5 32 20 32H18V34H16V32C16 30 16 30 16 28Z" fill="#6b8e23" stroke="#1a3d1a" stroke-width="1"/>
+                <rect x="20" y="30" width="6" height="2" fill="#6b8e23"/>
+                <rect x="20" y="33" width="4" height="2" fill="#6b8e23"/>
+                <!-- Dekorativa element -->
+                <path d="M8 32H40V36C40 38 38 40 36 40H12C10 40 8 38 8 36V32Z" fill="#4a7c59"/>
+            </svg>
+            <div class="logo-text">
+                <h1>Drotsens Samfällighetsförening</h1>
+                <span class="logo-tagline">Gemenskap · Ansvar · Trivsel</span>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">Start</a>
+            <a href="om.html">Om föreningen</a>
+            <a href="boendeinfo.html">Information till boende</a>
+            <a href="dokument.html">Dokument</a>
+        </nav>
+    </div>
 </header>
 
 <main>
     <section class="hero">
-    <h2>Välkommen till Drotsens Samfällighetsförening</h2>
-    <p>Information, dokument och praktiska riktlinjer för alla boende i området.</p>
+        <h2>Välkommen till Drotsens Samfällighetsförening</h2>
+        <p>Information, dokument och praktiska riktlinjer för alla boende i området.</p>
+    </section>
+
+    <section class="quick-links">
+        <h2>Snabblänkar</h2>
+        <div class="link-grid">
+            <a href="dokument.html" class="link-card">
+                <div class="link-icon">📄</div>
+                <h3>Dokument</h3>
+                <p>Stadgar, protokoll och årsredovisningar</p>
+            </a>
+            <a href="boendeinfo.html" class="link-card">
+                <div class="link-icon">🏠</div>
+                <h3>Boendeinfo</h3>
+                <p>Praktisk information för alla boende</p>
+            </a>
+            <a href="#kontakt" class="link-card">
+                <div class="link-icon">📞</div>
+                <h3>Kontakt</h3>
+                <p>Kontakta styrelsen och hitta viktiga telefonnummer</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="kontakt" class="contact-section">
+        <h2>Kontakt & Viktiga telefonnummer</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>🏢 Styrelsen</h3>
+                <p><strong>E-post:</strong> styrelsen@drotsen.se</p>
+                <p><strong>Telefon:</strong> 08-123 45 67</p>
+                <p><em>Vardagar 9-17</em></p>
+            </div>
+            <div class="contact-card">
+                <h3>🚨 Akut & Felanmälan</h3>
+                <p><strong>Jour:</strong> 08-987 65 43</p>
+                <p><strong>Fastighetsskötsel:</strong> 08-555 12 34</p>
+                <p><em>Dygnet runt vid akuta ärenden</em></p>
+            </div>
+            <div class="contact-card">
+                <h3>📮 Postadress</h3>
+                <p>Drotsens Samfällighetsförening<br>
+                Box 123<br>
+                123 45 Stockholm</p>
+            </div>
+        </div>
     </section>
        
 </main>

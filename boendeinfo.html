@@ -7,40 +7,117 @@
 </head>
 <body>
     <header>
-        <h1>Information till boende</h1>
-        <nav>
-            <a href="index.html">Start</a>
-            <a href="om.html">Om föreningen</a>
-            <a href="boendeinfo.html">Information till boende</a>
-            <a href="dokument.html">Dokument</a>
-        </nav>
+        <div class="header-content">
+            <div class="logo">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Krona (symbol för kunglig drots) -->
+                    <path d="M8 20L12 14L18 18L24 12L30 18L36 14L40 20V32H8V20Z" fill="#2d5a27" stroke="#1a3d1a" stroke-width="2"/>
+                    <circle cx="12" cy="14" r="2" fill="#4a7c59"/>
+                    <circle cx="24" cy="12" r="2" fill="#4a7c59"/>
+                    <circle cx="36" cy="14" r="2" fill="#4a7c59"/>
+                    <!-- Nyckel (symbol för förvaltarskap) -->
+                    <path d="M16 28C16 26 17.5 24 20 24C22.5 24 24 26 24 28C24 30 22.5 32 20 32H18V34H16V32C16 30 16 30 16 28Z" fill="#6b8e23" stroke="#1a3d1a" stroke-width="1"/>
+                    <rect x="20" y="30" width="6" height="2" fill="#6b8e23"/>
+                    <rect x="20" y="33" width="4" height="2" fill="#6b8e23"/>
+                    <!-- Dekorativa element -->
+                    <path d="M8 32H40V36C40 38 38 40 36 40H12C10 40 8 38 8 36V32Z" fill="#4a7c59"/>
+                </svg>
+                <div class="logo-text">
+                    <h1>Drotsens Samfällighetsförening</h1>
+                    <span class="logo-tagline">Gemenskap · Ansvar · Trivsel</span>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html">Start</a>
+                <a href="om.html">Om föreningen</a>
+                <a href="boendeinfo.html">Information till boende</a>
+                <a href="dokument.html">Dokument</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-    <h2>Information till boende</h2>
+        <h2>🏠 Information till boende</h2>
+        <p class="intro-text">Här hittar du praktisk information som gör vardagen smidigare för dig som bor i Drotsens samfällighet.</p>
 
-    <div class="info-grid">
-        <div class="info-box">
-            <h3>🚗 Parkering</h3>
-            <p>Parkering sker endast på anvisade platser. Gästparkering är avsedd för kortare besök.</p>
+        <div class="info-grid">
+            <div class="info-box enhanced">
+                <h3>🚗 Parkering</h3>
+                <p>Parkering sker endast på anvisade platser. Gästparkering är avsedd för kortare besök.</p>
+                <div class="info-details">
+                    <strong>Viktigt att veta:</strong>
+                    <ul>
+                        <li>Felaktigt parkerade fordon kan bogseras</li>
+                        <li>Gästparkeringsplatserna får användas max 24h</li>
+                        <li>Rapportera parkeringsproblem till styrelsen</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-box enhanced">
+                <h3>🗑️ Sopor & återvinning</h3>
+                <p>Soprummet är öppet dygnet runt. Följ skyltningen för sortering av hushållsavfall och återvinning.</p>
+                <div class="info-details">
+                    <strong>Sortering:</strong>
+                    <ul>
+                        <li>Hushållsavfall - grå säck</li>
+                        <li>Matavfall - grön säck</li>
+                        <li>Kartong, papper, glas, metall - separata kärl</li>
+                        <li>Batterier och elektronik - särskild insamling</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-box enhanced">
+                <h3>❄️ Snöröjning</h3>
+                <p>Föreningen ansvarar för snöröjning av gemensamma gångvägar och infarter.</p>
+                <div class="info-details">
+                    <strong>Vinterrutiner:</strong>
+                    <ul>
+                        <li>Snöröjning sker vid behov från 06:00</li>
+                        <li>Prioritet: huvudgångar och infarter</li>
+                        <li>Boende ansvarar för egen trappa/ingång</li>
+                        <li>Rapportera farliga ishalka omgående</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-box enhanced">
+                <h3>🌳 Gemensamma ytor</h3>
+                <p>Grönytor och lekplats är till för alla boende. Visa hänsyn och håll området rent.</p>
+                <div class="info-details">
+                    <strong>Regler för gemensamma utrymmen:</strong>
+                    <ul>
+                        <li>Lekplats: barn under 12 år i vårdnadshavares sällskap</li>
+                        <li>Grillar endast på anvisade platser</li>
+                        <li>Hundar hålls i koppel i området</li>
+                        <li>Cyklar parkeras i cykelställ</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <div class="info-box">
-            <h3>🗑️ Sopor & återvinning</h3>
-            <p>Soprummet är öppet dygnet runt. Följ skyltningen för sortering av hushållsavfall och återvinning.</p>
-        </div>
-
-        <div class="info-box">
-            <h3>❄️ Snöröjning</h3>
-            <p>Föreningen ansvarar för snöröjning av gemensamma gångvägar och infarter.</p>
-        </div>
-
-        <div class="info-box">
-            <h3>🌳 Gemensamma ytor</h3>
-            <p>Grönytor och lekplats är till för alla boende. Visa hänsyn och håll området rent.</p>
-        </div>
-    </div>
-</main>
+        <section class="emergency-info">
+            <h2>🚨 Akut & nödkontakter</h2>
+            <div class="emergency-grid">
+                <div class="emergency-card">
+                    <h3>Vid akuta fel</h3>
+                    <p>Ring jour: <strong>08-987 65 43</strong></p>
+                    <small>Exempel: vattenläcka, elavbrott, låsproblem</small>
+                </div>
+                <div class="emergency-card">
+                    <h3>Fastighetsservice</h3>
+                    <p>Vardagar: <strong>08-555 12 34</strong></p>
+                    <small>Felanmälan, underhåll, allmänna frågor</small>
+                </div>
+                <div class="emergency-card">
+                    <h3>Nödläge</h3>
+                    <p>Ring alltid <strong>112</strong> först</p>
+                    <small>Brand, olycka, hot mot liv och hälsa</small>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>© Drotsens Samfällighetsförening</p>
