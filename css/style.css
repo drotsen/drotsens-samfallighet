@@ -61,6 +61,12 @@ header {
     filter: drop-shadow(0 2px 4px rgba(45, 90, 39, 0.2));
 }
 
+.logo img {
+    flex-shrink: 0;
+    filter: drop-shadow(0 2px 4px rgba(45, 90, 39, 0.2));
+    border-radius: 4px;
+}
+
 .logo-text h1 {
     margin: 0;
     font-size: 28px;
